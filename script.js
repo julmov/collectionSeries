@@ -65,6 +65,7 @@ const seriesCollection = [
     releaseYear: 2020,
     picture: "The-Great-season-3-renewal-1024x576.jpg",
     link: "https://www.youtube.com/watch?v=1sMrtt7sAR8",
+
     genre: ["Dark comedy", "Satire"],
     cast: ["Elle Fanning", "Nicholas Hoult", "Phoebe Fox", "Charity Wakefield"],
   },
@@ -176,3 +177,4 @@ document.addEventListener("DOMContentLoaded", function () {
     seriesContainer.appendChild(card);
   });
 });
+//OMG
