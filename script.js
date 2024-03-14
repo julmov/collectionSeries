@@ -3,8 +3,7 @@ const seriesCollection = [
     name: "You",
     director: ["Greg Berlanti", "Sera Gamble"],
     releaseYear: 2018,
-    picture:
-      "https://github.com/julmov/collectionSeries/blob/main/p14418847_b_h8_aj.jpg",
+    picture: "p14418847_b_h8_aj.jpg",
     link: "https://www.youtube.com/watch?v=ga1m0wjzscU",
     genre: "Psychological thriller",
     cast: [
@@ -19,7 +18,7 @@ const seriesCollection = [
     name: "Why women kill",
     director: "Marc Cherry",
     releaseYear: 2019,
-    picture: "https://github.com/julmov/collectionSeries/blob/main/whywomenkill.jpg",
+    picture: "whywomenkill.jpg",
     link: "https://www.youtube.com/watch?v=yynQ98otI-s",
     genre: ["Black comedy", "Anthology"],
     cast: ["Ginnifer Goodwin", "Sam Jaeger", "Lucy Liu", "Alexandra Daddario"],
@@ -29,8 +28,7 @@ const seriesCollection = [
     name: "Resident Alien",
     director: "Chris Sheridan",
     releaseYear: 2021,
-    picture:
-      "https://github.com/julmov/collectionSeries/blob/main/p19132606_b_h8_aa.jpg",
+    picture: "p19132606_b_h8_aa.jpg",
     link: "https://www.youtube.com/watch?v=T4J7QjGNTs4",
     genre: ["Comedy drama", "Science fiction"],
     cast: ["Alan Tudyk", "Sara Tomko", "Corey Reynolds", "Alice Wetterlund"],
@@ -40,8 +38,7 @@ const seriesCollection = [
     name: "Scream Queens",
     director: ["Robert M. Williams Jr.", "Barry M. Berg"],
     releaseYear: 2015,
-    picture:
-      "https://github.com/julmov/collectionSeries/blob/main/scream-queens-mktg-hed-2015.jpg",
+    picture: "scream-queens-mktg-hed-2015.jpg",
     link: "https://www.youtube.com/watch?v=i6_LwI-hUms",
     genre: ["Comedy horror", "Black comedy"],
     cast: ["Emma Roberts", " Nick Jonas", "Jamie Lee Curtis", "Ariana Grande"],
@@ -51,8 +48,7 @@ const seriesCollection = [
     name: "Supernatural",
     director: "Eric Kripke",
     releaseYear: 2005,
-    picture:
-      "https://github.com/julmov/collectionSeries/blob/main/maxresdefault.jpg",
+    picture: "maxresdefault.jpg",
     link: "https://www.youtube.com/watch?v=t-775JyzDTk",
     genre: ["Adventure", "Fantasy"],
     cast: [
@@ -67,8 +63,7 @@ const seriesCollection = [
     name: "The Great",
     director: "Tony McNamara",
     releaseYear: 2020,
-    picture:
-      "https://github.com/julmov/collectionSeries/blob/main/The-Great-season-3-renewal-1024x576.jpg",
+    picture: "The-Great-season-3-renewal-1024x576.jpg",
     link: "https://www.youtube.com/watch?v=1sMrtt7sAR8",
     genre: ["Dark comedy", "Satire"],
     cast: ["Elle Fanning", "Nicholas Hoult", "Phoebe Fox", "Charity Wakefield"],
@@ -77,8 +72,7 @@ const seriesCollection = [
     name: "The Crowded Room",
     director: "Akiva Goldsman",
     releaseYear: 2023,
-    picture:
-      "https://github.com/julmov/collectionSeries/blob/main/The_Crowded_Room_title_card.jpeg",
+    picture: "The_Crowded_Room_title_card.jpeg",
     link: "https://www.youtube.com/watch?v=4w1xZA7pX2c",
     genre: ["Drama", "Psychological thriller"],
     cast: ["Tom Holland", "Amanda Seyfried", "Sasha Lane", "Will Chase"],
@@ -87,8 +81,7 @@ const seriesCollection = [
     name: "Midnight Mass",
     director: "Mike Flanagan",
     releaseYear: 2021,
-    picture:
-      "https://github.com/julmov/collectionSeries/blob/main/midnight-mass.png",
+    picture: "midnight-mass.png",
     link: "https://www.youtube.com/watch?v=89UV8vmWXlY",
     genre: "Supernatural horror",
     cast: [
@@ -102,8 +95,7 @@ const seriesCollection = [
     name: "American Horror Story",
     director: "Ryan Murphy",
     releaseYear: 2011,
-    picture:
-      "https://github.com/julmov/collectionSeries/blob/main/american-horror-story-1.png",
+    picture: "american-horror-story-1.png",
     link: "https://www.youtube.com/watch?v=reP8VFF3KHU&t=3s",
     genre: ["Anthology", "Horror"],
     cast: ["Sarah Paulson", "Evan Peters", "Emma Roberts", "Taissa Farmiga"],
@@ -182,7 +174,5 @@ document.addEventListener("DOMContentLoaded", function () {
     details.appendChild(youtubeLink);
     card.appendChild(details);
     seriesContainer.appendChild(card);
-
-    
   });
 });
