@@ -1,0 +1,105 @@
+body {
+  background-color: black;
+  width: calc(100% - 80px);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 2px solid #d214ff;
+  border-radius: 8px;
+  overflow: hidden;
+
+  box-shadow: 0 0 15px rgba(255, 4, 238, 0.5);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(85, 13, 86, 1) 100%
+  );
+}
+
+
+h1 {
+  background: none;
+  text-shadow: 0 0 15px rgba(255, 4, 238, 0.5);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.details {
+  padding: 20px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #f8f3f3;
+}
+
+p {
+  margin: 0;
+  margin-top: 5px;
+  font-size: 1rem;
+  color: #bfbfbf;
+}
+
+#topContainer {
+  text-align: center;
+  color: aliceblue;
+  width: 100%;
+  height: 150px;
+  background-color: rgb(24, 22, 22);
+  padding-top: 50px;
+  margin-bottom: 50px;
+  border: solid 2px #d214ff;
+  box-shadow: 0 0 20px rgba(255, 4, 238, 0.5); /* Adds a shadow */
+}
+
+@media screen and (max-width: 768px) {
+#topContainer {
+  text-align: center;
+  color: aliceblue;
+  width: 100%;
+  height: 150px;
+  background-color: rgb(24, 22, 22);
+  padding-top: 50px;
+  margin-bottom: 50px;
+  border-bottom: solid 2px #d214ff; /* Apply border only to the bottom */
+  box-shadow: 0 10px 10px -10px rgba(255, 4, 238, 0.5); /* Adds a shadow only to the bottom */
+  position: sticky; /* Stick to the top of the viewport */
+  top: 0;/* Stick to the top of the viewport */
+  z-index: 100; /* Ensure it stays above other content */
+}
+
+  #topContainer p {
+    display: none;
+  }
+
+  .container {
+     width: calc(100% - 80px);
+     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body{
+    width: 100%;
+    margin-top: 0;
+
+  }
+  
+}
+
